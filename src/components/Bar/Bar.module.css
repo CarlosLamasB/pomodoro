@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Public+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Fira+Sans+Condensed&display=swap');
+
+:root{
+  --barHeight:7vh ; 
+  --barwidth:10vw;
+}
+.bar{
+    background-color: #1c1c3c;
+    position:absolute;
+    display: flex;
+    width: calc((45/7) * var(--barHeight));
+    height: var(--barHeight);
+    border-radius:calc(11 * var(--barHeight));
+    justify-content:space-around;
+    align-items: center;
+    top:15%;
+    font-size: 2vh;
+  
+}
+
+.bar>div{
+ 
+  height: calc(var(--barHeight) * 8 /10);
+  width: calc((27/14) * var(--barHeight));
+ border-radius:calc(11 * var(--barHeight));
+ display: flex;
+ justify-content:space-around;
+ align-items: center;
+}
+.in{color:#858da6;
+  /* font-family: 'Arvo', serif; */
+  font-size: 2vh;
+  }
+.active{
+background-color: #e37174;
+color:#1c1c3c;
+font-size: 2vh;
+}
+.activeBlue{
+  background-color: #72ecf1;
+  color:#1c1c3c;
+  font-size: 2vh;
+  }
+  .activePurple{
+    background-color:#b698bb;
+    color:#1c1c3c;
+    font-size: 2vh;
+    }
+.font2>p{font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 1em;
+}
+.font3>p{font-family: 'ABeeZee', sans-serif;
+  font-size: 1em;
+}
+.font>p{font-family: 'Public Sans', sans-serif;
+  font-size: 1em}
+
+
+@media only screen and (max-width: 480px) {
+  :root{
+    --barHeight:10vh ; 
+    --barwidth:10vw;
+  }
+  .bar{
+      background-color: #1c1c3c;
+      position:absolute;
+      display: flex;
+      width: 80vw;
+      height: var(--barHeight);
+      border-radius:calc(0.5 * var(--barHeight));
+      justify-content:space-around;
+      align-items: center;
+      top:20%;
+      font-size: 2vh;
+    
+  }
+  
+  .bar>div{
+   
+    height: 70%;
+    width: 26vw;
+   border-radius:calc(11 * var(--barHeight));
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+  }
+  .in{color:#858da6;
+    /* font-family: 'Arvo', serif; */
+    font-size: 2vh;
+    }
+  .active{
+  background-color: #e37174;
+  color:#1c1c3c;
+  font-size: 2vh;
+  }
+  .activeBlue{
+    background-color: #72ecf1;
+    color:#1c1c3c;
+    font-size: 2vh;
+    }
+    .activePurple{
+      background-color:#b698bb;
+      color:#1c1c3c;
+      font-size: 2vh;
+      }
+  .font2>p{font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 1em;
+  }
+  .font3>p{font-family: 'ABeeZee', sans-serif;
+    font-size: 1em;
+  }
+  .font>p{font-family: 'Public Sans', sans-serif;
+    font-size: 1em}
+  
+  }
