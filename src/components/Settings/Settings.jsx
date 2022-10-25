@@ -101,7 +101,7 @@ return (
    <p className={set.pTitle}>C O L O R</p>
   {colors2}</div>
 
-     <button onClick={()=>{cambiar(pomodoro,short,long,color,font)}} className={set.apply}>Apply</button>
+     <button onClick={()=>{cambiar(pomodoro,short,long,color,font);del()}} className={set.apply}>Apply</button>
     
     </div>
   )
