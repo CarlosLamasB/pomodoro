@@ -94,7 +94,7 @@ return (
     </div>
       
       <div className={set.fonty}>
-        <p className={set.pTitle}>F O N K</p> {letras}
+        <p className={set.pTitle}>F O N T</p> {letras}
       </div>
 
 <div className={set.divColor}>
