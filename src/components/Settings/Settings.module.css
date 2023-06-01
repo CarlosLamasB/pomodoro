@@ -567,15 +567,15 @@
       .round input[type="checkbox"]:checked + label:after {
         opacity: 1;
       }
-      .round>.pink{
+      .round .pink{
         position: relative;
       
           }
-          .round>.blue{
+          .round .blue{
             position: relative;
             
               }
-              .round>.purple{
+              .round .purple{
                 position: relative;
                   }
       
